@@ -1,0 +1,6 @@
+1] For XG Boost Model:
+The XGBoost model has a very low RMSE of $12,257, indicating minimal average prediction error. Its R-squared value of 0.99998 shows that the model explains almost all the variability in house prices, reflecting excellent performance.
+2] From Feacher Importance:
+f0 is the most important feature by a large margin, meaning it has the biggest impact on predicting house prices. The other features (f4, f5, f11, f12) have some influence but are much less important compared to f0. Understanding which features are most important helps in interpreting the model and possibly improving it by focusing on key features.
+3] For Random Forest Model:
+Your Random Forest model predicts house prices with high accuracy. The average error is about €3,184, and the model explains nearly 100% of the variance in prices, meaning it's extremely reliable for this task.
