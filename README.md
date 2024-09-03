@@ -3,6 +3,27 @@ The "House Price Prediction" project focuses on predicting housing prices using 
 
 ##Project Overview
 The "House Price Prediction" project aims to develop a model that can accurately predict housing prices based on various features. This prediction task is of great significance in real estate and finance, enabling informed decision-making for buyers, sellers, and investors. By employing machine learning algorithms and a curated dataset, this project provides a powerful tool for estimating house prices.
+#
+The dataset contains 10,000 entries and 17 columns. Here's a brief overview of the dataset:
+
+Columns:
+squareMeters: The size of the house in square meters.
+numberOfRooms: The number of rooms in the house.
+hasYard: Indicates whether the house has a yard (1 = Yes, 0 = No).
+hasPool: Indicates whether the house has a pool (1 = Yes, 0 = No).
+floors: The number of floors in the house.
+cityCode: A unique code representing the city.
+cityPartRange: A range indicating the part of the city.
+numPrevOwners: The number of previous owners of the house.
+made: The year the house was built.
+isNewBuilt: Indicates whether the house is newly built (1 = Yes, 0 = No).
+hasStormProtector: Indicates whether the house has a storm protector (1 = Yes, 0 = No).
+basement: The size of the basement in square meters.
+attic: The size of the attic in square meters.
+garage: The size of the garage in square meters.
+hasStorageRoom: Indicates whether the house has a storage room (1 = Yes, 0 = No).
+hasGuestRoom: The number of guest rooms in the house.
+price: The price of the house.
 
 ##Key Features
 1] Data Collection and Processing: The project utilizes the "California Housing" dataset, which can be directly downloaded from the Scikit-learn library. The dataset contains features such as house age, number of rooms, population, and median income. Using Pandas, the data is processed and transformed to ensure it is suitable for analysis.
